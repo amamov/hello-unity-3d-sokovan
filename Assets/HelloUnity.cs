@@ -8,6 +8,8 @@ public class HelloUnity : MonoBehaviour
     void Start()
     {
         Debug.Log("Hello World!!");
+        int age = 25;
+        Debug.Log(age);
     }
 
     // Update is called once per frame
