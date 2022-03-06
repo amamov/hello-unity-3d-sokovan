@@ -17,6 +17,9 @@ public class HelloUnity : MonoBehaviour
         Debug.Log(age);
         Debug.Log(pi);
         Debug.Log(title + " bro!" + pi);
+        var name = "yoon sang seok"; // auto typing
+        
+
     }
 
     // Update is called once per frame
