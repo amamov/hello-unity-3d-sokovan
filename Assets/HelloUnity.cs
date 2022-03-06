@@ -16,11 +16,26 @@ public class HelloUnity : MonoBehaviour
         Debug.Log(pi);
         Debug.Log(title + " bro!" + pi);
         var name = "yoon sang seok"; // auto typing
+        name = title;
 
         //* C# Function
         var sizeOfCircle = 30f;
         var radius = GetRadius(sizeOfCircle);
         Debug.Log(radius);
+
+        //* type casting
+        var width = 100;
+        var widthDetail = 100.3f;
+        widthDetail = width;
+        width = (int) widthDetail;
+
+        //* condition
+        if (isSexy || !isSexy && isSexy) Debug.Log("I'am sexy");
+
+        //* Array 
+        int[] scores = {90, 45, 30, 100};
+        
+
     }
 
     // Update is called once per frame
