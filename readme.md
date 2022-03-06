@@ -1,3 +1,1 @@
-# Hello Unity
-
->
+# Hello Unity 3D (demo)
