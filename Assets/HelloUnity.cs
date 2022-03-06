@@ -32,9 +32,14 @@ public class HelloUnity : MonoBehaviour
         //* condition
         if (isSexy || !isSexy && isSexy) Debug.Log("I'am sexy");
 
-        //* Array 
+        //* array 
         int[] scores = {90, 45, 30, 100};
-        
+
+        //* class
+        var amamov = new Animal();
+        amamov.name = "yoon sang seok";
+        amamov.sound = "Bark!!";
+        amamov.weight = 74.3f;
 
     }
 
@@ -50,4 +55,12 @@ public class HelloUnity : MonoBehaviour
         var radius = Mathf.Sqrt(size / pi);
         return radius;
     }
+}
+
+
+public class Animal
+{
+    public string name;
+    public string sound;
+    public float weight;
 }
